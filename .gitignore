@@ -1,0 +1,27 @@
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+*.sqlite*
+*.key
+.DS_Store
+
+# Private operator state and audit output
+.secrets/
+.runtime/
+*.pem
+*.log
+
+# Build artifacts
+**/dist/
+*.tsbuildinfo
+
+# Editor cruft
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS files
+Thumbs.db
