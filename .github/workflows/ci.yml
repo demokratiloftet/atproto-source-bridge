@@ -43,6 +43,8 @@ jobs:
 
       - run: pnpm run format:check
 
-      - run: pnpm run build
+      # Uncomment when first TypeScript source lands under packages/
+      # - run: pnpm run build
 
-      - run: pnpm test
+      # Uncomment when first test lands under test/
+      # - run: pnpm test
